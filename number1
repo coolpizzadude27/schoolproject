@@ -2352,7 +2352,7 @@ end
 
 task.delay(5, RayfieldLibrary.LoadConfiguration, RayfieldLibrary)
 
-return Rayfield
+return RayfieldLibrary
 wait(2)
 Rayfield:Destroy()
 
