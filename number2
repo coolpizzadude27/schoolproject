@@ -1,1 +1,24 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
+OrionLib:MakeNotification({
+	Name = "Kitten Hub",
+	Content = "Thank you for supporting Kitten hub, you can always donate to motivate us for doing more.",
+	Image = "rbxassetid://4483362748",
+	Time = 7
+})
+
+wait(2)
+
+local Window = OrionLib:MakeWindow({Name = "Kitten Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "KittenHub"})
+
+local Main = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4400696929",
+	PremiumOnly = false
+})
+
+local Creds = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483362748",
+	PremiumOnly = false
+})
