@@ -2352,5 +2352,5 @@ end
 
 task.delay(5, RayfieldLibrary.LoadConfiguration, RayfieldLibrary)
 
-return RayfieldLibrary
-print("Chess")
+wait(1)
+Rayfield:Destroy()
